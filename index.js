@@ -1,24 +1,24 @@
 
-const i = 15.678;
-const b = 123.965;
-const c = 90.2345;
+const pants = 15.678;
+const jacket = 123.965;
+const suit = 90.2345;
 
 
-console.log ("1.", i); console.log ("2.", b); console.log ("3.", c);
+console.log ("1.", pants); console.log ("2.", jacket); console.log ("3.", suit);
 
 
-console.log("4.Max=", Math.max(i, b, c));
-console.log("5.Min=", Math.min(i, b, c));
+console.log("4.Max=", Math.max(pants, jacket, suit));
+console.log("5.Min=", Math.min(pants, jacket, suit));
 
 
-let sum = (i + b + c);
+let sum = (pants + jacket + suit);
 console.log("6.Sum=", sum);
 
 
-console.log("7.", Math.floor(i) ,"7.", Math.floor(b) , "7.", Math.floor(c));
+console.log("7.", Math.floor(pants) ,"7.", Math.floor(jacket) , "7.", Math.floor(suit));
 
 
-let sumaFloor = Math.floor(i) + Math.floor(b) + Math.floor(c);
+let sumaFloor = Math.floor(pants) + Math.floor(jacket) + Math.floor(suit);
 console.log(sumaFloor);
 
 
@@ -33,7 +33,7 @@ let restMoney = ( 500 - sum);
 console.log(restMoney);
 
 
-let mediumCount = (i + b + c) / 3;
+let mediumCount = (pants + jacket + suit) / 3;
 console.log(mediumCount.toFixed(2))
 
 
